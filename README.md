@@ -3,6 +3,16 @@
 This README outlines the details of collaborating on this Ember application.
 A short introduction of this app could easily go here.
 
+In this project I tried to use Ember without Ember-Data in order to get rid of the complicated adapters and serializers.
+
+I could Just use javascript built-in fetch method but I used [ember-ajax addon](https://github.com/ember-cli/ember-ajax).
+
+References:
+
+- [The Store without Ember Data ](https://blog.pablobm.com/2019/01/15/store-without-ember-data.html)
+- [Ember without Ember Data](https://eviltrout.com/2013/03/23/ember-without-data.html)
+
+
 ## Prerequisites
 
 You will need the following things properly installed on your computer.
