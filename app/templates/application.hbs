@@ -1,5 +1,16 @@
-{{!-- The following component displays Ember's default welcome message. --}}
-<WelcomePage />
-{{!-- Feel free to remove this! --}}
-
+<h1>teste</h1>
 {{outlet}}
+
+
+<div class="row">
+{{#each model as |user|}}
+
+  <div class="col-xs-3 col-md-3">
+    <a href="#" class="thumbnail" >
+      <img src="http://screenrant.com/wp-content/uploads/Star-Wars-7-Logo-Wallpaper.jpg" style="max-width: 300px;max-height: 300px;" alt="...">
+    </a>
+
+    <h5>{{user.name}}</h5>
+  </div>
+{{/each}}
+</div>
